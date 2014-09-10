@@ -1,0 +1,24 @@
+{
+  "port": 3000,
+  "hostname": "http://localhost:3000",
+  "mongoose": {
+    "uri": "mongodb://test_user:test@kahana.mongohq.com:10015/app22802749",
+    "url": "mongodb://",
+    "urn": "          test_user:test@kahana.mongohq.com:10015/app22802749",
+    "options": {
+      "db": {        
+        "native_parser": true
+      },
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      },
+      "replset": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "FloQast",
+    "email": "ramr@floqast.com",
+    "url": "http://www.floqast.com/"
+  },
+  "dependencies": {
+    "connect-mongo": "~0.4.0",
+    "dropbox": "~0.10.2",
+    "express": "3.5.1",
+    "express-winston": "~0.2.5",
+    "ejs": "*",
+    "mongoose": "~3.8.8",
+    "nconf": "~0.6.9",
+    "request": "~2.34.0",
+    "winston": "~0.7.3",
+    "node-recurlyjs-sign": "https://github.com/brandid/node-recurlyjs-sign/tarball/master"
+  },
+  "description": "",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": "",
+  "license": "WTFPL",
+  "main": "index.js",
+  "name": "FloQast-Web-App",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cullenzandstra/floqast.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
