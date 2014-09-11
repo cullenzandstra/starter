@@ -48,6 +48,21 @@ app.get('/', function(req, res) {
 	})
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 app.get('/js/*', function(req, res) {
 	console.log("here2 " + __dirname);
 	fs.readFile(__dirname + req.url, function(err, html) {

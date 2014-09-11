@@ -2,7 +2,7 @@ define([
 	"lib/backbone",
 	"lib/jquery",
 	"lib/underscore",
-	"text!templates/tpl-main.html", 
+	"hbs!templates/tpl-main", 
 	"models/mainModel",
 ], function(Backbone, 
 			$, 
@@ -16,7 +16,7 @@ define([
         },
 
 		initialize : function () {
-			$("body").append(Template);
+			$("body").append(Template({test:"TODO"}));
         },
 	});
 });
